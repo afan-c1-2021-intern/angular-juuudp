@@ -9,4 +9,3 @@ export const booksReducer = createReducer(
   initialState,
   on(retrievedBookList, (state, { Book }) => [...Book])
 );
-//
